@@ -1,2 +1,16 @@
-# zhihu
+﻿# zhihu
  知乎模拟登陆Form Data
+
+
+#fetch-body中有多个Key，先计算出signature值，再合成body，最后body，得到FormData。
+
+signature = "0ad2c8caa83f1f71baada547dc24d7bdfa6eeb60";
+body = "client_id=c3cef7c66a1843f8b3a9e6a1e3160e20&grant_type=password&timestamp=1581158647912&source=com.zhihu.web&signature=0ad2c8caa83f1f71baada547dc24d7bdfa6eeb60&username=%2B8618678903249&password=11111111&captcha=%7B%22img_size%22%3A%5B200%2C44%5D%2C%22input_points%22%3A%5B%5B19.39996337890625%2C23%5D%2C%5B97.39996337890625%2C18%5D%5D%7D&lang=cn&utm_source=&ref_source=other_https%3A%2F%2Fwww.zhihu.com%2Fsignin%3Fnext%3D%252F";
+FormData = "aR79k4U0cT2tXqYq8LPG6vHmxq2pkLnmtbSBDgg9kLtxgeSmhbfGiqX1jbfVoG398LF0gQN0cT2tuqYq8LkMQbwGivwOgUxGw9e0g4e8kCV92vgBzh3qk4R92LkYFhVGwqoVJbCGST2tEqx9BLkBEJXmST2tXGYq8LP9c4U0g_epcTYhfX2_k4U0gLtxSRYyfM202Q9ybHYxEMYyiCYqk4Q_kLtxg_LqsTYh27r_kLtxgLF0MRYy6er0282XbH20XHY0Pv9qkLP1cLF0zXe0c79hkT2pkLkMKbO1-DcVeC3OEgN08LF0gHN0cT2tXCYq8LPqeHN0cT2tQRF0iCYqk4__2LtxgTF0sTYhguC12vCYJgN08LF0g7SqcT2tXqYhZUS8eDC8FBtxgXY0mXY0rA90Xq2tHhomGqoMUDgqkLkXeT201HtyoQuyr8FXPhYq8LP924_BJwx9kCSMsBF0giUqnCSYSXNByhSqHbU0F9OpeLY8ywO8nJrqNwtY27Y8ZqxyFUuBUuFm2LfB8CpGU9eBDqppkLn8zG3ZchL1iDpuJvS8EqYhggHMcvOOSTYh8XYyo6Uq6L2xr7Yqm_e0giCmU9VOgcO1KBF0g6HM-GVO2wxMEqYhgDCKevgVEwNMqBF0giU0gutpr0YBmXNqgq982TNXNqtqfXY8SQr8o8SYFq28EqYhHqeVebSYDrS8";
+
+
+
+
+
+
+
