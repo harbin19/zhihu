@@ -9,25 +9,15 @@ signature = "0ad2c8caa83f1f71baada547dc24d7bdfa6eeb60";
 
 body = "
 client_id=c3cef7c66a1843f8b3a9e6a1e3160e20
-
 &grant_type=password
-
 &timestamp=1581158647912
-
 &source=com.zhihu.web
-
 &signature=0ad2c8caa83f1f71baada547dc24d7bdfa6eeb60
-
 &username=%2B8618678903249
-
 &password=11111111
-
 &captcha=%7B%22img_size%22%3A%5B200%2C44%5D%2C%22input_points%22%3A%5B%5B19.39996337890625%2C23%5D%2C%5B97.39996337890625%2C18%5D%5D%7D
-
 &lang=cn
-
 &utm_source=
-
 &ref_source=other_https%3A%2F%2Fwww.zhihu.com%2Fsignin%3Fnext%3D%252F
 ";
 
