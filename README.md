@@ -2,7 +2,11 @@
  知乎模拟登陆Form Data
 
 
-#fetch-body中有多个Key，先计算出signature值，再合成body，最后加密body，得到FormData。
+post请求体body中有多个Key，client_id，grant_type,signature等。
+signature较为重要。
+先计算signature值，组合成body，最后把body加密，得到FormData。
+
+Example.
 
 signature = "0ad2c8caa83f1f71baada547dc24d7bdfa6eeb60";
 
